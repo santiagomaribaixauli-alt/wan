@@ -31,8 +31,7 @@
     "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Lightx2v/lightx2v_I2V_14B_480p_cfg_step_distill_rank64_bf16.safetensors",
     "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/LoRAs/Wan22_relight/WanAnimate_relight_lora_fp16.safetensors",
 	"https://huggingface.co/Matelefy/qwenmysticxxx/blob/main/Qwen-MysticXXX-v1.safetensors",
-	"https://huggingface.co/fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA/blob/main/qwen-image-edit-2511-multiple-angles-lora.safetensors",
-	
+	"https://huggingface.co/fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA/blob/main/qwen-image-edit-2511-multiple-angles-lora.safetensors"	
   ],
   "upscale_models": [
     "https://huggingface.co/lokCX/4x-Ultrasharp/resolve/main/4x-UltraSharp.pth"
@@ -53,4 +52,5 @@
     "https://huggingface.co/Wan-AI/Wan2.2-Animate-14B/resolve/main/process_checkpoint/det/yolov10m.onnx",
     "https://huggingface.co/JunkyByte/easy_ViTPose/resolve/main/onnx/wholebody/vitpose-l-wholebody.onnx"
   ]
+
 } 
