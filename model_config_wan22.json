@@ -10,7 +10,9 @@
   "diffusion_models": [
     "https://huggingface.co/Phr00t/Qwen-Image-Edit-Rapid-AIO/resolve/main/v5/Qwen-Rapid-AIO-NSFW-v5.2.safetensors",    
     "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
-    "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors"    
+    "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
+	"https://huggingface.co/louisnguyen198x/SmoothMixWan2.2/blob/main/smoothMixWan22I2VT2V_i2vHigh.safetensors",
+	"https://huggingface.co/louisnguyen198x/SmoothMixWan2.2/blob/main/smoothMixWan22I2VT2V_i2vLow.safetensors"    
   ],
   "text_encoders": [
     "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
@@ -64,7 +66,12 @@
 	"https://huggingface.co/JERRYNPC/WAN2.2-LORA-NSFW/blob/main/wan2.2_highnoise_cumshot_v.1.0.safetensors",
 	"https://huggingface.co/JERRYNPC/WAN2.2-LORA-NSFW/blob/main/wan2.2_lownoise_cumshot_v1.0.safetensors",
 	"https://huggingface.co/NikolaSigmoid/wan2.2-i2v-loras-lips/blob/main/highnoise.safetensors",
-	"https://huggingface.co/NikolaSigmoid/wan2.2-i2v-loras-lips/blob/main/lownoise.safetensors"	
+	"https://huggingface.co/NikolaSigmoid/wan2.2-i2v-loras-lips/blob/main/lownoise.safetensors",
+	"https://huggingface.co/louisnguyen198x/SmoothMixWan2.2/blob/main/SmoothMixAnimation_High.safetensors",
+	"https://huggingface.co/louisnguyen198x/SmoothMixWan2.2/blob/main/SmoothMixAnimation_Low.safetensors",
+	"https://huggingface.co/louisnguyen198x/SmoothMixWan2.2/blob/main/SmoothMixStyle_High.safetensors",
+	"https://huggingface.co/louisnguyen198x/SmoothMixWan2.2/blob/main/SmoothMixStyle_Low.safetensors",
+	
   ],
   "upscale_models": [
     "https://huggingface.co/lokCX/4x-Ultrasharp/resolve/main/4x-UltraSharp.pth"
