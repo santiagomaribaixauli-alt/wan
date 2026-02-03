@@ -10,7 +10,8 @@
     "diffusion_models": [
         "https://huggingface.co/Phr00t/Qwen-Image-Edit-Rapid-AIO/resolve/main/v5/Qwen-Rapid-AIO-NSFW-v5.2.safetensors",
         "https://huggingface.co/louisnguyen198x/SmoothMixWan2.2/resolve/main/smoothMixWan22I2VT2V_i2vHigh.safetensors",
-        "https://huggingface.co/louisnguyen198x/SmoothMixWan2.2/resolve/main/smoothMixWan22I2VT2V_i2vLow.safetensors"
+        "https://huggingface.co/louisnguyen198x/SmoothMixWan2.2/resolve/main/smoothMixWan22I2VT2V_i2vLow.safetensors",
+        "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_s2v_14B_fp8_scaled.safetensors"
     ],
     "text_encoders": [
         "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
@@ -26,7 +27,8 @@
         "https://huggingface.co/louisnguyen198x/SmoothMixWan2.2/resolve/main/SmoothMixAnimation_High.safetensors",
         "https://huggingface.co/louisnguyen198x/SmoothMixWan2.2/resolve/main/SmoothMixAnimation_Low.safetensors",
         "https://huggingface.co/louisnguyen198x/SmoothMixWan2.2/resolve/main/SmoothMixStyle_High.safetensors",
-        "https://huggingface.co/louisnguyen198x/SmoothMixWan2.2/resolve/main/SmoothMixStyle_Low.safetensors"
+        "https://huggingface.co/louisnguyen198x/SmoothMixWan2.2/resolve/main/SmoothMixStyle_Low.safetensors",
+        "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_t2v_lightx2v_4steps_lora_v1.1_high_noise.safetensors"        
     ],
     "upscale_models": [
         "https://huggingface.co/lokCX/4x-Ultrasharp/resolve/main/4x-UltraSharp.pth"
@@ -41,6 +43,7 @@
     "style_models": [
     ],
     "audio_encoders": [
+        "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/audio_encoders/wav2vec2_large_english_fp16.safetensors"
     ],
     "clip": [
     ],
