@@ -5,10 +5,14 @@
         "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors"
     ],
     "unet": [
+        "https://huggingface.co/Bedovyy/dasiwaWAN22I2V14B-GGUF/resolve/main/HighNoise/dasiwaWAN22I2V14B_midnightflirtHigh-Q8_0.gguf",
+        "https://huggingface.co/Bedovyy/dasiwaWAN22I2V14B-GGUF/resolve/main/LowNoise/dasiwaWAN22I2V14B_midnightflirtLow-Q8_0.gguf"
     ],
     "diffusion_models": [
         "https://huggingface.co/louisnguyen198x/SmoothMixWan2.2/resolve/main/smoothMixWan22I2VT2V_i2vHigh.safetensors",
-        "https://huggingface.co/louisnguyen198x/SmoothMixWan2.2/resolve/main/smoothMixWan22I2VT2V_i2vLow.safetensors"
+        "https://huggingface.co/louisnguyen198x/SmoothMixWan2.2/resolve/main/smoothMixWan22I2VT2V_i2vLow.safetensors",
+        "https://huggingface.co/xroli/DasiwaWAN22I2V14BLightspeed_synthseductionHighV9/resolve/main/DasiwaWAN22I2V14BLightspeed_synthseductionHighV9.safetensors",
+        "https://huggingface.co/xroli/DasiwaWAN22I2V14BLightspeed_synthseductionHighV9/resolve/main/DasiwaWAN22I2V14BLightspeed_synthseductionLowV9.safetensors"
     ],
     "text_encoders": [
         "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
@@ -73,6 +77,8 @@
         "https://huggingface.co/NikolaSigmoid/wan2.2-i2v-loras-fingering/resolve/main/lownoise.safetensors",
         "https://huggingface.co/FataleCherry/Hi_LickingLips/resolve/main/LipL-high-60%20(1).safetensors",
         "https://huggingface.co/FataleCherry/Low_LickingLips/resolve/main/LipL-low-60%20(1).safetensors",
+        "https://huggingface.co/NikolaSigmoid/wan2.2-i2v-loras-fingering/resolve/main/highnoise.safetensors",
+        "https://huggingface.co/NikolaSigmoid/wan2.2-i2v-loras-fingering/resolve/main/lownoise.safetensors",
         "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/LoRAs/Stable-Video-Infinity/v2.0/SVI_v2_PRO_Wan2.2-I2V-A14B_LOW_lora_rank_128_fp16.safetensors",
         "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/LoRAs/Stable-Video-Infinity/v2.0/SVI_v2_PRO_Wan2.2-I2V-A14B_HIGH_lora_rank_128_fp16.safetensors",
         "https://huggingface.co/lightx2v/Wan2.2-Distill-Loras/resolve/main/wan2.2_t2v_A14b_low_noise_lora_rank64_lightx2v_4step_1217.safetensors",
