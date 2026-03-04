@@ -20,6 +20,13 @@ NODES=(
     #"https://github.com/cubiq/ComfyUI_essentials"
 	"https://github.com/filliptm/ComfyUI_Fill-Nodes"
 	"https://github.com/ashtar1984/comfyui-find-perfect-resolution"
+	"https://github.com/city96/ComfyUI-GGUF"
+	"https://github.com/rgthree/rgthree-comfy"
+	"https://github.com/kijai/ComfyUI-KJNodes"
+	"https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite"
+	"https://github.com/filliptm/ComfyUI_Fill-Nodes"
+	"https://github.com/ashtar1984/comfyui-find-perfect-resolution"
+	"https://github.com/ciri/comfyui-model-downloader"
 )
 
 WORKFLOWS=(
@@ -29,9 +36,7 @@ WORKFLOWS=(
 CHECKPOINT_MODELS=(    	
 )
 
-UNET_MODELS=(
-	"https://huggingface.co/louisnguyen198x/SmoothMixWan2.2/resolve/main/smoothMixWan22I2VT2V_i2vHigh.safetensors"
-    "https://huggingface.co/louisnguyen198x/SmoothMixWan2.2/resolve/main/smoothMixWan22I2VT2V_i2vLow.safetensors"
+UNET_MODELS=(	
 )
 
 LORA_MODELS=(
