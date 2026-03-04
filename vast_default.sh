@@ -18,19 +18,20 @@ PIP_PACKAGES=(
 NODES=(
     #"https://github.com/ltdrdata/ComfyUI-Manager"
     #"https://github.com/cubiq/ComfyUI_essentials"
+	"https://github.com/filliptm/ComfyUI_Fill-Nodes"
+	"https://github.com/ashtar1984/comfyui-find-perfect-resolution"
 )
 
 WORKFLOWS=(
 
 )
 
-CHECKPOINT_MODELS=(
-    "https://civitai.com/api/download/models/798204?type=Model&format=SafeTensor&size=full&fp=fp16"
-	"https://huggingface.co/louisnguyen198x/SmoothMixWan2.2/resolve/main/smoothMixWan22I2VT2V_i2vHigh.safetensors"
-    "https://huggingface.co/louisnguyen198x/SmoothMixWan2.2/resolve/main/smoothMixWan22I2VT2V_i2vLow.safetensors"
+CHECKPOINT_MODELS=(    	
 )
 
 UNET_MODELS=(
+	"https://huggingface.co/louisnguyen198x/SmoothMixWan2.2/resolve/main/smoothMixWan22I2VT2V_i2vHigh.safetensors"
+    "https://huggingface.co/louisnguyen198x/SmoothMixWan2.2/resolve/main/smoothMixWan22I2VT2V_i2vLow.safetensors"
 )
 
 LORA_MODELS=(
