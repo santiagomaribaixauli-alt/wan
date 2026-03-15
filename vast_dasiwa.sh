@@ -36,7 +36,9 @@ WORKFLOWS=(
 CHECKPOINT_MODELS=(    	
 )
 
-UNET_MODELS=(	
+UNET_MODELS=(
+	"https://huggingface.co/xroli/DasiwaWAN22I2V14BLightspeed_synthseductionHighV9/resolve/main/DasiwaWAN22I2V14BLightspeed_synthseductionHighV9.safetensors"
+	"https://huggingface.co/xroli/DasiwaWAN22I2V14BLightspeed_synthseductionHighV9/resolve/main/DasiwaWAN22I2V14BLightspeed_synthseductionLowV9.safetensors"
 )
 
 LORA_MODELS=(
@@ -120,9 +122,7 @@ VAE_MODELS=(
 ESRGAN_MODELS=(
 )
 
-DIFFUSION_MODELS=( 
-  "https://huggingface.co/xroli/DasiwaWAN22I2V14BLightspeed_synthseductionHighV9/resolve/main/DasiwaWAN22I2V14BLightspeed_synthseductionHighV9.safetensors"
-  "https://huggingface.co/xroli/DasiwaWAN22I2V14BLightspeed_synthseductionHighV9/resolve/main/DasiwaWAN22I2V14BLightspeed_synthseductionLowV9.safetensors"
+DIFFUSION_MODELS=(   
 )
 
 CONTROLNET_MODELS=(
