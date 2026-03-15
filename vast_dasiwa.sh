@@ -18,15 +18,15 @@ PIP_PACKAGES=(
 NODES=(
     #"https://github.com/ltdrdata/ComfyUI-Manager"
     #"https://github.com/cubiq/ComfyUI_essentials"
-	  #"https://github.com/filliptm/ComfyUI_Fill-Nodes"
-	  #"https://github.com/ashtar1984/comfyui-find-perfect-resolution"
-	  #"https://github.com/city96/ComfyUI-GGUF"
-	  #"https://github.com/rgthree/rgthree-comfy"
-	  #"https://github.com/kijai/ComfyUI-KJNodes"
-	  #"https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite"
-	  #"https://github.com/filliptm/ComfyUI_Fill-Nodes"
-	  #"https://github.com/ashtar1984/comfyui-find-perfect-resolution"
-	  #"https://github.com/ciri/comfyui-model-downloader"
+	#"https://github.com/filliptm/ComfyUI_Fill-Nodes"
+	#"https://github.com/ashtar1984/comfyui-find-perfect-resolution"
+	#"https://github.com/city96/ComfyUI-GGUF"
+	#"https://github.com/rgthree/rgthree-comfy"
+	#"https://github.com/kijai/ComfyUI-KJNodes"
+	#"https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite"
+	#"https://github.com/filliptm/ComfyUI_Fill-Nodes"
+	#"https://github.com/ashtar1984/comfyui-find-perfect-resolution"
+	#"https://github.com/ciri/comfyui-model-downloader"
 )
 
 WORKFLOWS=(
@@ -146,7 +146,7 @@ function provisioning_start() {
         "${COMFYUI_DIR}/models/unet" \
         "${UNET_MODELS[@]}"
     provisioning_get_files \
-        "${COMFYUI_DIR}/models/lora" \
+        "${COMFYUI_DIR}/models/loras" \
         "${LORA_MODELS[@]}"
     provisioning_get_files \
         "${COMFYUI_DIR}/models/controlnet" \
