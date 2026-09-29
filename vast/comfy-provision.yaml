@@ -1,0 +1,53 @@
+version: 1
+settings:
+  venv: "/venv/main"
+
+git_repos:
+  - url: https://github.com/Comfy-Org/ComfyUI
+    dest: "${WORKSPACE:-/workspace}/ComfyUI"
+    ref: "8ff6dc38"
+    pull_if_exists: true
+    post_commands:
+      - "uv pip install --no-cache --python /venv/main/bin/python -r requirements.txt"
+
+  - url: https://github.com/darksidewalker/ComfyUI-DaSiWa-Nodes
+    dest: "${WORKSPACE:-/workspace}/ComfyUI/custom_nodes/ComfyUI-DaSiWa-Nodes"
+    ref: "53e2630"
+    post_commands:
+      - "[ ! -f requirements.txt ] || uv pip install --no-cache --python /venv/main/bin/python -r requirements.txt"
+
+  - url: https://github.com/wyzborrero/ComfyUI-H3-FunControl.git
+    dest: "${WORKSPACE:-/workspace}/ComfyUI/custom_nodes/ComfyUI-H3-FunControl"
+    ref: "d2a3faa"
+
+  - url: https://github.com/kijai/ComfyUI-KJNodes
+    dest: "${WORKSPACE:-/workspace}/ComfyUI/custom_nodes/ComfyUI-KJNodes"
+    ref: "d3cfe21"
+    post_commands:
+      - "[ ! -f requirements.txt ] || uv pip install --no-cache --python /venv/main/bin/python -r requirements.txt"
+
+  - url: https://github.com/Comfy-Org/ComfyUI-Manager
+    dest: "${WORKSPACE:-/workspace}/ComfyUI/custom_nodes/ComfyUI-Manager"
+    ref: "fe1193c0"
+    post_commands:
+      - "[ ! -f requirements.txt ] || uv pip install --no-cache --python /venv/main/bin/python -r requirements.txt"
+
+  - url: https://github.com/ethanfel/ComfyUI-MiniMax-H3-Edit.git
+    dest: "${WORKSPACE:-/workspace}/ComfyUI/custom_nodes/ComfyUI-MiniMax-H3-Edit"
+    ref: "92ff5b9"
+    post_commands:
+      - "[ ! -f requirements.txt ] || uv pip install --no-cache --python /venv/main/bin/python -r requirements.txt"
+
+  - url: https://github.com/WhatDreamscost/WhatDreamsCost-ComfyUI
+    dest: "${WORKSPACE:-/workspace}/ComfyUI/custom_nodes/WhatDreamsCost-ComfyUI"
+    ref: "a3c809c"
+
+  - url: https://github.com/SethRobinson/comfyui-workflow-to-api-converter-endpoint
+    dest: "${WORKSPACE:-/workspace}/ComfyUI/custom_nodes/comfyui-workflow-to-api-converter-endpoint"
+    ref: "bc85382"
+
+  - url: https://github.com/rgthree/rgthree-comfy
+    dest: "${WORKSPACE:-/workspace}/ComfyUI/custom_nodes/rgthree-comfy"
+    ref: "449c58f"
+    post_commands:
+      - "[ ! -f requirements.txt ] || uv pip install --no-cache --python /venv/main/bin/python -r requirements.txt"
