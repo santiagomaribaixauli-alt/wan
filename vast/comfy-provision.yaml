@@ -3,13 +3,6 @@ settings:
   venv: "/venv/main"
 
 git_repos:
-  - url: https://github.com/Comfy-Org/ComfyUI
-    dest: "${WORKSPACE:-/workspace}/ComfyUI"
-    ref: "8ff6dc38"
-    pull_if_exists: true
-    post_commands:
-      - "uv pip install --no-cache --python /venv/main/bin/python -r requirements.txt"
-
   - url: https://github.com/darksidewalker/ComfyUI-DaSiWa-Nodes
     dest: "${WORKSPACE:-/workspace}/ComfyUI/custom_nodes/ComfyUI-DaSiWa-Nodes"
     ref: "53e2630"
@@ -23,12 +16,6 @@ git_repos:
   - url: https://github.com/kijai/ComfyUI-KJNodes
     dest: "${WORKSPACE:-/workspace}/ComfyUI/custom_nodes/ComfyUI-KJNodes"
     ref: "d3cfe21"
-    post_commands:
-      - "[ ! -f requirements.txt ] || uv pip install --no-cache --python /venv/main/bin/python -r requirements.txt"
-
-  - url: https://github.com/Comfy-Org/ComfyUI-Manager
-    dest: "${WORKSPACE:-/workspace}/ComfyUI/custom_nodes/ComfyUI-Manager"
-    ref: "fe1193c0"
     post_commands:
       - "[ ! -f requirements.txt ] || uv pip install --no-cache --python /venv/main/bin/python -r requirements.txt"
 
@@ -51,3 +38,9 @@ git_repos:
     ref: "449c58f"
     post_commands:
       - "[ ! -f requirements.txt ] || uv pip install --no-cache --python /venv/main/bin/python -r requirements.txt"
+
+post_commands:
+  - "git -C ${WORKSPACE:-/workspace}/ComfyUI fetch origin && git -C ${WORKSPACE:-/workspace}/ComfyUI checkout 8ff6dc38"
+  - "uv pip install --no-cache --python /venv/main/bin/python -r ${WORKSPACE:-/workspace}/ComfyUI/requirements.txt"
+  - "git -C ${WORKSPACE:-/workspace}/ComfyUI/custom_nodes/ComfyUI-Manager fetch origin && git -C ${WORKSPACE:-/workspace}/ComfyUI/custom_nodes/ComfyUI-Manager checkout fe1193c0"
+  - "[ ! -f ${WORKSPACE:-/workspace}/ComfyUI/custom_nodes/ComfyUI-Manager/requirements.txt ] || uv pip install --no-cache --python /venv/main/bin/python -r ${WORKSPACE:-/workspace}/ComfyUI/custom_nodes/ComfyUI-Manager/requirements.txt"
